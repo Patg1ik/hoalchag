@@ -1,0 +1,267 @@
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Regular"), url("../fonts/gilroy/Gilroy-Regular.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Medium"), url("../fonts/gilroy/Gilroy-Medium.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-SemiBold"), url("../fonts/gilroy/Gilroy-Semibold.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Bold"), url("../fonts/gilroy/Gilroy-Bold.woff2") format("woff2"), url("../fonts/gilroy/Gilroy-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Light"), url("../fonts/inter/Inter-Light.woff2") format("woff2"), url("../fonts/inter/Inter-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Regular"), url("../fonts/inter/Inter-Regular.woff2") format("woff2"), url("../fonts/inter/Inter-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Medium"), url("../fonts/inter/Inter-Medium.woff2") format("woff2"), url("../fonts/inter/Inter-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-SemiBold"), url("../fonts/inter/Inter-SemiBold.woff2") format("woff2"), url("../fonts/inter/Inter-Semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: local("Inter-Bold"), url("../fonts/inter/Inter-Bold.woff2") format("woff2"), url("../fonts/inter/Inter-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto-Medium"), url("../fonts/roboto/Roboto-Medium.woff2") format("woff2"), url("../fonts/roboto/Roboto-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: local("Montserrat-SemiBold"), url("../fonts/montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("../fonts/montserrat/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+body {
+  background-color: #f9f3f3;
+  min-width: 320px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  padding: 80px 0 0 0;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 830px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 0 0 28px 0;
+}
+.header .container {
+  justify-content: space-between;
+  align-items: center;
+}
+.header .container .nav {
+  width: 385px;
+}
+.header .container .nav__list {
+  width: 100%;
+  justify-content: space-between;
+}
+.header .container .nav__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+}
+.header .container .nav__link:hover {
+  border-bottom: 1px solid #000000;
+}
+.header .container .header__user {
+  align-items: center;
+}
+.header .container .header__user form {
+  margin: 0 16px 0 0;
+  position: relative;
+  width: 226px;
+}
+.header .container .header__user form input, .header .container .header__user form button {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}
+.header .container .header__user form input {
+  width: 100%;
+  height: 32px;
+  background: #eee;
+  padding-left: 15px;
+  border: 0.5px solid #000000;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+  border-radius: 20px;
+}
+.header .container .header__user form button {
+  height: 18px;
+  width: 83px;
+  position: absolute;
+  top: 7px;
+  right: 13px;
+  background-image: url("../images/magnifier.svg");
+  background-size: 17px 18px;
+  background-repeat: no-repeat;
+  background-position: right;
+  cursor: pointer;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #8A8A8A;
+  text-align: left;
+}
+.header .container .header__avatar {
+  align-items: center;
+}
+
+.products__list {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.products__list .product {
+  width: calc((100% - 61px) / 2);
+  flex-direction: column;
+}
+.products__list .product__descr {
+  justify-content: space-between;
+  align-items: center;
+}
+.products__list .product__descr .product__text h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+.products__list .product__descr .product__text span, .products__list .product__descr .product__text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.products__list .product__descr button {
+  width: 104px;
+  height: 43px;
+  background: #213C47;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.products__list .product:not(:nth-last-child(2), :nth-last-child(1)) {
+  margin: 0 0 60px 0;
+}
+
+.carousel-indicators button {
+  width: 17px !important;
+  height: 17px !important;
+  border: 2px solid #fff !important;
+  border-radius: 100px !important;
+  opacity: 1 !important;
+  background: transparent !important;
+  transition: all 0.3s !important;
+}
+
+.carousel-indicators .active {
+  background: #fff !important;
+}/*# sourceMappingURL=style.css.map */

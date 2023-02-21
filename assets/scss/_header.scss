@@ -1,0 +1,80 @@
+.header {
+	margin: 0 0 28px 0;
+
+	.container {
+		justify-content: space-between;
+		align-items: center;
+
+		.nav {
+			width: 385px;
+
+			&__list {
+				width: 100%;
+				justify-content: space-between;
+			}
+
+			&__link {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 500;
+				font-size: 14px;
+				line-height: 16px;
+				color: #000000;
+
+				&:hover {
+					border-bottom: 1px solid #000000;
+				}
+			}
+		}
+
+		.header__user {
+			align-items: center;
+	
+			form {
+				margin: 0 16px 0 0;
+				position: relative;
+				width: 226px;
+				
+				input, button {
+					border: none;
+					outline: none;
+					border-radius: 3px;
+				}
+				
+				input {
+					width: 100%;
+					height: 32px;
+					background: #eee;
+					padding-left: 15px;
+					border: 0.5px solid #000000;
+					box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.11);
+					border-radius: 20px;
+				}
+				
+				button {
+					height: 18px;
+					width: 83px; // 83
+					position: absolute;
+					top: 7px;
+					right: 13px;
+					background-image: url("../images/magnifier.svg");
+					background-size: 17px 18px;
+					background-repeat: no-repeat;
+					background-position: right;
+					cursor: pointer;
+					font-family: 'Inter';
+					font-style: normal;
+					font-weight: 400;
+					font-size: 13px;
+					line-height: 16px;
+					color: #8A8A8A;
+					text-align: left;
+				}
+			}
+		}
+	
+		.header__avatar {
+			align-items: center;
+		}
+	}
+}
