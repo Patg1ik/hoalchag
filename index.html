@@ -1,269 +1,458 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Хьоалчаг1.рус</title>
-	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-	<link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
-	<div class="wrapper">
-		<header class="header">
-			<div class="container flex">
-				<a href="#" class="header__logo">
-					<img src="assets/images/header-logo.svg">
-				</a>
-				<nav class="nav">
-					<ul class="nav__list list-reset flex">
-						<li class="nav__item">
-							<a href="#" class="nav__link">Главная</a>
-						</li>
-						<li class="nav__item">
-							<a href="#" class="nav__link">Услуги</a>
-						</li>
-						<li class="nav__item">
-							<a href="#" class="nav__link">Контакты</a>
-						</li>
-						<li class="nav__item">
-							<a href="#" class="nav__link">О нас</a>
-						</li>
-					</ul>
-				</nav>
-				<div class="header__user flex">
-					<form action="#">
-						<input type="search">
-						<button type="submit">Поиск...</button>
-					</form>
-					<a href="#" class="header__avatar flex">
-						<img src="assets/images/user-avatar.svg">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Хьоалчаг1.рус</title>
+		<link rel="stylesheet" href="assets/css/normalize.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="assets/css/style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="container flex">
+					<a href="#" class="header__logo">
+						<img src="assets/images/header-logo.svg" />
 					</a>
+					<nav class="nav">
+						<ul class="nav__list list-reset flex">
+							<li class="nav__item">
+								<a href="#" class="nav__link">Главная</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Услуги</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">Контакты</a>
+							</li>
+							<li class="nav__item">
+								<a href="#" class="nav__link">О нас</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="header__user flex">
+						<form action="#">
+							<input type="search" />
+							<button type="submit">Поиск...</button>
+						</form>
+						<a href="#" class="header__avatar flex">
+							<img src="assets/images/user-avatar.svg" />
+						</a>
+					</div>
 				</div>
-			</div>
-		</header>
-		<main>
-			<section class="products">
-				<div class="container">
-					<ul class="products__list list-reset flex">
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			</header>
+			<main>
+				<section class="products">
+					<div class="container">
+						<ul class="products__list list-reset flex">
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators1"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators1"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators1"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators1"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
+									</div>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+									</div>
 								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
-									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
-									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
-									</div>
-								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
-								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<button class="product__btn">Арендовать</button>
+								</div>
+							</li>
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators2"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators2"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators2"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators2"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
-								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<button class="product__btn">Арендовать</button>
+								</div>
+							</li>
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators3"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators3"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators3"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators3"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
-								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<button class="product__btn">Арендовать</button>
+								</div>
+							</li>
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators4"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators4"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators4"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators4"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
-								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<button class="product__btn">Арендовать</button>
+								</div>
+							</li>
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators5"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators5"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators5"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators5"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
-								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-						<li class="product flex">
-							<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-								<div class="carousel-indicators">
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-									<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-								</div>
-								<div class="carousel-inner">
-									<div class="carousel-item active" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<button class="product__btn">Арендовать</button>
+								</div>
+							</li>
+							<li class="product flex">
+								<div
+									id="carouselExampleIndicators6"
+									class="carousel slide"
+									data-bs-ride="carousel"
+								>
+									<div class="carousel-indicators">
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators6"
+											data-bs-slide-to="0"
+											class="active"
+											aria-current="true"
+											aria-label="Slide 1"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators6"
+											data-bs-slide-to="1"
+											aria-label="Slide 2"
+										></button>
+										<button
+											type="button"
+											data-bs-target="#carouselExampleIndicators6"
+											data-bs-slide-to="2"
+											aria-label="Slide 3"
+										></button>
 									</div>
-									<div class="carousel-item" data-interval="10000">
-										<a href="#">
-											<img src="assets/images/product-bg.png" class="d-block w-100" />
-										</a>
+									<div class="carousel-inner">
+										<div class="carousel-item active">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
+										<div class="carousel-item">
+											<a href="#">
+												<img
+													src="assets/images/product-bg.png"
+													class="d-block w-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
-							</div>
 
-							<div class="product__descr flex">
-								<div class="product__text">
-									<h3 class="product__title">МЕБЕЛЬ</h3>
-									<span>В ассортименте:</span>
-									<p>Стол, 6 стульев, приборы и т.д.</p>
+								<div class="product__descr flex">
+									<div class="product__text">
+										<h3 class="product__title">МЕБЕЛЬ</h3>
+										<span>В ассортименте:</span>
+										<p>Стол, 6 стульев, приборы и т.д.</p>
+									</div>
+									<button class="product__btn">Арендовать</button>
 								</div>
-								<button class="product__btn">Арендовать</button>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</section>
-		</main>
-		<footer class="footer"></footer>
-	</div>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</main>
+			<footer class="footer"></footer>
+		</div>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-</body>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+	</body>
 </html>
